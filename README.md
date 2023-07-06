@@ -24,7 +24,7 @@
 ## Step 2: Set up a rule that runs every 30 minutes
 1. Navigate to the `CloudWatch` section in the AWS Console. Click on the `Events` drop-down menu on the left-hand side, and select `Rules`. 
 2. Click on `Create Rule`. In the following window, enter a name and description for the rule, choose `default` as the event bus, and choose `Schedule` for rule type.
-![Rule Details](/Images/Rule/RuleDetails.png).
+![Rule Details](/Images/Rule/RuleDetails.png)
 3. When you are done, click on the `Continue to create rule` button in the bottom left corner.
 4. Set up the schedule pattern with the following configurations and hit `Next`.
 ![Schedule Pattern](/Images/Rule/SchedulePattern.png)
@@ -41,7 +41,7 @@
 4. Select `Email` as the protocol, and enter an email address as the endpoint.
 ![Topic Subscriptions](/Images/Topic/TopicSubscriptions.png)
 5. Repeat steps 3 and 4 to add more email addresses to this SNS Topic.
-6. After adding an email address to the SNS Topic, you will receive a confirmation email. Confirm the new subscription by clicking on the link in this email. After confirmation, navigate back to your SNS Topic, where you can confirm the status of your subscription.
+6. After adding an email address to the SNS Topic, you will receive a confirmation email. Confirm the new subscription by clicking on the link in this email. After confirmation, navigate back to your SNS Topic, where you can confirm the status of your subscription.<br>
 ![Email Confirmation](/Images/Topic/EmailConfirmation.png)
 
 ### Everything should now be setup, and you should have functioning AWS Email Notifications!
